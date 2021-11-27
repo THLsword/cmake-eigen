@@ -29,8 +29,9 @@
 
   但是在windows里`find_package` ~~大概肯定~~可能会找不到eigen,需要通过cmake GUI “安装”
 
-  <img src="C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20211127225905828.png" alt="image-20211127225905828" style="zoom: 67%;" />
+  <img src="img.png" style="zoom: 67%;" />
 
   然后就可以使用`find_package`了 ~~大概~~
 
   （没试过是否必须要放在C盘）
+
