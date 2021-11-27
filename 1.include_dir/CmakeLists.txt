@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.8)
+project(eigen_test)
+
+include_directories(C:/dev/eigen-3.4.0)
+
+add_executable(test
+	main.cpp
+)
+
+
