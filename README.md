@@ -15,7 +15,7 @@
 
   
 
-- 补充：有一种更高雅 ~~？~~的写法
+- 补充：有一种更高雅的写法(?)
 
   ```
   set（EIGEN_INCLUDE_DIR "path/to/eigen")
