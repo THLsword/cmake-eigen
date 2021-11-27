@@ -1,5 +1,5 @@
 # cmake-eigen
- 在windows使用cmake配置eigen
+ 在windows 10 使用 cmake 配置 eigen库，IDE :VS2019 ，cmake版本3.20.3
 
 归纳几种方法
 
@@ -12,6 +12,21 @@
   ```
 
   即可直接使用
+
+  
+
+- 补充：有一种更高雅 ~~？~~的写法
+
+  ```
+  set（EIGEN_INCLUDE_DIR "path/to/eigen")
+  include_directories(${EIGEN_INCLUDE_DIR})
+  ```
+
+  把 EIGEN_INCLUDE_DIR 的值设置为eigen的地址，然后include EIGEN_INCLUDE_DIR ~~脱裤子放屁嘛~~
+
+  或许会有其他用途
+
+
 
 - eigen官网 - **Using Eigen in CMake Projects**(https://eigen.tuxfamily.org/dox/TopicCMakeGuide.html)
 
